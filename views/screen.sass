@@ -23,9 +23,10 @@ form.bp
   +blueprint-form
 
 // Page layout can be done using mixins applied to your semantic classes and IDs:
-body.three-col
+body
   #container
     +container
+    +showgrid
   #header, #footer
     +column(!blueprint_grid_columns)
   #sidebar
