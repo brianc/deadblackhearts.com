@@ -438,7 +438,7 @@ form.bp textarea {
   height: 250px;
 }
 
-/* line 27, ../../views/screen.sass */
+/* line 26, ../../views/screen.sass */
 body #container {
   width: 950px;
   margin: 0 auto;
@@ -450,36 +450,43 @@ body #container {
 body #container {
   display: block;
 }
-/* line 30, ../../views/screen.sass */
-body #header, body #footer {
+/* line 29, ../../views/screen.sass */
+body #container .band-name {
+  font-variant: small-caps;
+  font-family: "Futura";
+  color: red;
+}
+/* line 34, ../../views/screen.sass */
+body #content .album {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 950px;
+  padding-bottom: 10px;
 }
 /* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #header, * html body #footer {
+* html body #content .album {
   overflow-x: hidden;
 }
-/* line 32, ../../views/screen.sass */
-body #sidebar {
+/* line 39, ../../views/screen.sass */
+body #content .album .cover {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 310px;
+  width: 270px;
 }
 /* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #sidebar {
+* html body #content .album .cover {
   overflow-x: hidden;
 }
-/* line 36, ../../views/screen.sass */
-body #content {
+/* line 41, ../../views/screen.sass */
+body #content .album .info {
   display: inline;
   float: left;
   margin-right: 0;
-  width: 630px;
+  width: 670px;
 }
 /* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #content {
+* html body #content .album .info {
   overflow-x: hidden;
 }

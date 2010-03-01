@@ -1,17 +1,19 @@
 !!!
 %html{:html_attrs => html_attrs }
   %head
-    %title Dead Black Hearts
+    %title dead black hearts
     %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/screen.css"}
     /[if lt IE 8]
       %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/ie.css" }
   %body.bp
     #container
-      #header
-        %h1 Dead Black Hearts
+      %h1.band-name dead black hearts
       #content
-        %p album content here
-      #sidebar
-        %p social links here
-      #footer
-        %p footer? srsly?
+        - @albums.each do |album|
+          .album
+            %img.cover{:src => "/images/#{album.cover_image}", :alt => album.title }
+            .info
+              %h3.title= album.title
+              %ol.songs
+                - album.songs.each do |song|
+                  %li= song.title

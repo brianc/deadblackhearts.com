@@ -17,26 +17,26 @@ body.bp
   +blueprint-utilities
   +blueprint-debug
   +blueprint-interaction
-  // Remove the scaffolding when you're ready to start doing visual design.
-  // Or leave it in if you're happy with how blueprint looks out-of-the-box
 form.bp
   +blueprint-form
 
 // Page layout can be done using mixins applied to your semantic classes and IDs:
+!blueprint_grid_columns = 24
 body
   #container
     +container
     +showgrid
-  #header, #footer
-    +column(!blueprint_grid_columns)
-  #sidebar
-    // One third of the grid columns, rounding down. With 24 cols, this is 8.
-    !sidebar_columns = floor(!blueprint_grid_columns / 3)
-    +column(!sidebar_columns)
+    .band-name
+      font-variant: small-caps
+      font-family: "Futura"
+      color: red
   #content
-    // Two thirds of the grid columns, rounding up.
-    // With 24 cols, this is 16.
-    !content_columns = ceil(2 * !blueprint_grid_columns / 3)
-    // true means it's the last column in the row
-    +column(!content_columns, true)
-
+    .album
+      +column(!blueprint_grid_columns)
+      padding-bottom: 10px
+      !cover_width = !blueprint_grid_columns - 17
+      !tracks_width = !blueprint_grid_columns - (!cover_width)
+      .cover
+        +column(!cover_width)
+      .info
+        +column(!tracks_width,true)
