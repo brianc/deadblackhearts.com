@@ -438,25 +438,30 @@ form.bp textarea {
   height: 250px;
 }
 
-/* line 26, ../../views/screen.sass */
+/* line 25, ../../views/screen.sass */
+body {
+  background-color: #000;
+}
+/* line 27, ../../views/screen.sass */
 body #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   display: inline-block;
-  background: url('/images/grid.png?1267401092');
+  background-color: #DDD;
+  padding: 20px;
 }
 /* line 5, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/compass/stylesheets/compass/utilities/general/_hacks.sass */
 body #container {
   display: block;
 }
-/* line 29, ../../views/screen.sass */
+/* line 31, ../../views/screen.sass */
 body #container .band-name {
   font-variant: small-caps;
   font-family: "Futura";
   color: red;
 }
-/* line 34, ../../views/screen.sass */
+/* line 36, ../../views/screen.sass */
 body #content .album {
   display: inline;
   float: left;
@@ -468,7 +473,7 @@ body #content .album {
 * html body #content .album {
   overflow-x: hidden;
 }
-/* line 39, ../../views/screen.sass */
+/* line 41, ../../views/screen.sass */
 body #content .album .cover {
   display: inline;
   float: left;
@@ -479,7 +484,7 @@ body #content .album .cover {
 * html body #content .album .cover {
   overflow-x: hidden;
 }
-/* line 41, ../../views/screen.sass */
+/* line 43, ../../views/screen.sass */
 body #content .album .info {
   display: inline;
   float: left;
