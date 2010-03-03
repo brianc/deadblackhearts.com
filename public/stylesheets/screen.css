@@ -438,11 +438,7 @@ form.bp textarea {
   height: 250px;
 }
 
-/* line 25, ../../views/screen.sass */
-body {
-  background-color: #FAEBD7;
-}
-/* line 27, ../../views/screen.sass */
+/* line 26, ../../views/screen.sass */
 body #container {
   width: 950px;
   margin: 0 auto;
@@ -455,12 +451,12 @@ body #container {
 body #container {
   display: block;
 }
-/* line 31, ../../views/screen.sass */
+/* line 30, ../../views/screen.sass */
 body #container a {
   font-weight: bold;
   color: #000;
 }
-/* line 35, ../../views/screen.sass */
+/* line 34, ../../views/screen.sass */
 body #content #the-southern-front {
   display: inline;
   float: left;
@@ -471,7 +467,7 @@ body #content #the-southern-front {
 * html body #content #the-southern-front {
   overflow-x: hidden;
 }
-/* line 37, ../../views/screen.sass */
+/* line 36, ../../views/screen.sass */
 body #content #five-gallant-steeds {
   display: inline;
   float: left;
@@ -482,15 +478,15 @@ body #content #five-gallant-steeds {
 * html body #content #five-gallant-steeds {
   overflow-x: hidden;
 }
-/* line 39, ../../views/screen.sass */
+/* line 38, ../../views/screen.sass */
 body #content .album {
   text-align: center;
 }
-/* line 41, ../../views/screen.sass */
+/* line 40, ../../views/screen.sass */
 body #content .cover {
-  width: 250px;
+  width: 300px;
 }
-/* line 43, ../../views/screen.sass */
+/* line 42, ../../views/screen.sass */
 body #content .download {
   text-align: center;
 }
