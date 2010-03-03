@@ -16,7 +16,7 @@ class App < Sinatra::Default
     five_gallant_steeds = Album.new
     five_gallant_steeds.title = "Five Gallant Steeds"
     five_gallant_steeds.cover_image = "dbh_fivegallantsteeds_medium.jpg"
-    five_gallant_steeds.id = "five-gallant-steeds.zip"
+    five_gallant_steeds.id = "five-gallant-steeds"
     @albums = [the_southern_front,five_gallant_steeds]
     haml :index
   end
