@@ -445,12 +445,13 @@ body #container {
   overflow: hidden;
   display: inline-block;
   font-size: 18px;
+  padding-top: 15px;
 }
 /* line 5, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/compass/stylesheets/compass/utilities/general/_hacks.sass */
 body #container {
   display: block;
 }
-/* line 30, ../../views/screen.sass */
+/* line 31, ../../views/screen.sass */
 body #content #the-southern-front {
   display: inline;
   float: left;
@@ -461,7 +462,7 @@ body #content #the-southern-front {
 * html body #content #the-southern-front {
   overflow-x: hidden;
 }
-/* line 32, ../../views/screen.sass */
+/* line 33, ../../views/screen.sass */
 body #content #five-gallant-steeds {
   display: inline;
   float: left;
@@ -472,11 +473,11 @@ body #content #five-gallant-steeds {
 * html body #content #five-gallant-steeds {
   overflow-x: hidden;
 }
-/* line 34, ../../views/screen.sass */
+/* line 35, ../../views/screen.sass */
 body #content .cover {
   width: 450px;
 }
-/* line 36, ../../views/screen.sass */
+/* line 37, ../../views/screen.sass */
 body #content .download {
   text-align: center;
 }
