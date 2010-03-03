@@ -438,60 +438,45 @@ form.bp textarea {
   height: 250px;
 }
 
-/* line 25, ../../views/screen.sass */
-body {
-  background-color: #000;
-}
-/* line 27, ../../views/screen.sass */
+/* line 26, ../../views/screen.sass */
 body #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   display: inline-block;
-  background-color: #DDD;
-  padding: 20px;
+  font-size: 18px;
 }
 /* line 5, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/compass/stylesheets/compass/utilities/general/_hacks.sass */
 body #container {
   display: block;
 }
-/* line 31, ../../views/screen.sass */
-body #container .band-name {
-  font-variant: small-caps;
-  font-family: "Futura";
-  color: red;
-}
-/* line 36, ../../views/screen.sass */
-body #content .album {
+/* line 30, ../../views/screen.sass */
+body #content #the-southern-front {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 950px;
-  padding-bottom: 10px;
+  width: 470px;
 }
 /* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #content .album {
+* html body #content #the-southern-front {
   overflow-x: hidden;
 }
-/* line 41, ../../views/screen.sass */
-body #content .album .cover {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 270px;
-}
-/* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #content .album .cover {
-  overflow-x: hidden;
-}
-/* line 43, ../../views/screen.sass */
-body #content .album .info {
+/* line 32, ../../views/screen.sass */
+body #content #five-gallant-steeds {
   display: inline;
   float: left;
   margin-right: 0;
-  width: 670px;
+  width: 470px;
 }
 /* line 101, ../../../../../../../usr/local/Cellar/ruby/1.9.1-p378/lib/ruby/gems/1.9.1/gems/compass-0.10.0.pre8/frameworks/blueprint/stylesheets/blueprint/_grid.sass */
-* html body #content .album .info {
+* html body #content #five-gallant-steeds {
   overflow-x: hidden;
+}
+/* line 34, ../../views/screen.sass */
+body #content .cover {
+  width: 450px;
+}
+/* line 36, ../../views/screen.sass */
+body #content .download {
+  text-align: center;
 }

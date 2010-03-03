@@ -23,22 +23,15 @@ form.bp
 // Page layout can be done using mixins applied to your semantic classes and IDs:
 !blueprint_grid_columns = 24
 body
-  background-color: #000
   #container
     +container
-    background-color: #DDD
-    padding: 20px
-    .band-name
-      font-variant: small-caps
-      font-family: "Futura"
-      color: red
+    font-size: 18px
   #content
-    .album
-      +column(!blueprint_grid_columns)
-      padding-bottom: 10px
-      !cover_width = !blueprint_grid_columns - 17
-      !tracks_width = !blueprint_grid_columns - (!cover_width)
-      .cover
-        +column(!cover_width)
-      .info
-        +column(!tracks_width,true)
+    #the-southern-front
+      +column(!blueprint_grid_columns/2)
+    #five-gallant-steeds
+      +column(!blueprint_grid_columns/2,true)
+    .cover
+      width: 450px
+    .download
+      text-align: center
