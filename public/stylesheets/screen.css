@@ -489,4 +489,5 @@ body #content .cover {
 /* line 42, ../../views/screen.sass */
 body #content .download {
   text-align: center;
+  font-size: 16px;
 }

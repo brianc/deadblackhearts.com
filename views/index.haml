@@ -8,13 +8,21 @@
   %body.bp
     #container
       #content
-        %p
-          We have our music here for you to download for free.  All we ask is that if you like what you hear let your friends know. So download, add us to your mp3 player of choice, and enjoy. If you'd like to get more information, show dates, etc, you can fan us on <a href="http://www.facebook.com/deadblackhearts" target="_blank">facebook</a> or friend us on <a href="http://www.myspace.com/deadblackhearts" target="_blank">myspace</a>. We'll keep you up to date with the goings-ons.  If you have a life threatening emergency you can dial 911 or <a href="mailto:band@deadblackhearts.com">email us directly</a>.
+        %h3 OMG. Free Music.
+        %p Yes. Download and enjoy. Tell your friends.
+        %p 
+          If you'd like to get more information, show dates, etc., do at least one of the following so we can keep you up to date:
+        %ul
+          %li fan us on <a href="http://www.facebook.com/deadblackhearts" target="_blank">facebook</a>
+          %li friend us on <a href="http://www.myspace.com/deadblackhearts" target="_blank">myspace</a>
+          %li follow us on <a href="http://www.twitter.com/deadblackhearts" target="_blank">twitter</a>
         - @albums.each do |album|
           .album{:id => album.id}
             %img.cover{:src => "/images/#{album.cover_image}", :alt => album.title }
             .download
               %a{:href => "#{album.id}.zip"} Download
+        %p &nbsp;
+        %p If you have a life threatening emergency you can dial 911 or <a href="mailto:band@deadblackhearts.com">email us directly</a>.
     %script{:type => "text/javascript", :src => "http://www.google-analytics.com/ga.js"}
     %script{:type => "text/javascript", :src => "jquery.js"}
     %script{:type => "text/javascript", :src => "main.js"}
