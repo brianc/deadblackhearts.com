@@ -1,16 +1,12 @@
 require 'rack/test'
 require 'app.rb'
-class Generator
-  include Rack::Test::Methods
 
-  def app; App; end
-
+task :install do
+  puts "You need to run this with sudo"
+  sh('gem update --system')
+  sh('gem install sinatra')
 end
 
-task :generate do
-  Generator.new.get("/") do |res|
-    File.open("public/index.html","w+") do |f|
-      f.puts res.body
-    end
-  end
+task :default do
+  sh('ruby app.rb')
 end
