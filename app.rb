@@ -1,10 +1,11 @@
+require 'rubygems'
 require 'sinatra'
 require 'haml'
 
 class Album < Struct.new(:title, :cover_image, :id)
 end
 
-class App < Sinatra::Default
+class App < Sinatra::Base
   set :haml, { :format => :html5 }
 
   get "/" do
