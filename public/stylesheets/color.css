@@ -1,0 +1,46 @@
+body {
+   background:#181818;
+   color:#aeaeae;
+   padding:10px;
+   font-size:13px;
+}
+
+a {
+   color: #FFF;
+}
+
+a:hover, a:active {
+   text-decoration: underline;
+}
+
+.band-name {
+   text-align:right;
+   padding-right:120px;
+   padding-bottom:30px;
+   color: red;
+   font-family: futura;
+   font-size: 42px;
+   font-variant: small-caps;
+}
+
+h3, h4 {
+   color:#aeaeae;
+   font-family: futura;
+   font-variant: small-caps;
+}
+
+.colborder {
+   border-color: #482222;
+}
+
+hr {
+   background-color: #482222;
+}
+
+.cover {
+   width:200px;
+}
+
+.album {
+   text-align:center;
+}
