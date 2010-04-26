@@ -13,13 +13,13 @@ a:hover, a:active {
 
 .band-name {
    color: red;
-   font-family: futura;
+   font-family: futura, "futura lt", "Century Gothic";
    font-size: 36px;
    font-variant: small-caps;
 }
 
 h3 {
-   font-family: futura;
+   font-family: futura, "futura lt", "Century Gothic";
    font-variant: small-caps;
 }
 
