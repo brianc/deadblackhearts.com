@@ -1,13 +1,25 @@
 body {
    padding:10px;
-   font-size:14px;
+   font-size:13px;
 }
 
 a {
    text-decoration: none;
 }
+a:hover, a:active {
+
+   text-decoration: underline;
+}
 
 .band-name {
+   color: red;
+   font-family: futura;
+   font-size: 36px;
+   font-variant: small-caps;
+}
+
+h3 {
+   font-family: futura;
    font-variant: small-caps;
 }
 
