@@ -10,3 +10,9 @@ end
 task :default do
   sh('ruby app.rb')
 end
+
+task :routes do
+  Sinatra::Application.routes["GET"].each do |route|
+    puts route[0].source
+  end
+end
