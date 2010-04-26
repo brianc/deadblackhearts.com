@@ -14,12 +14,9 @@ a:hover, a:active {
 }
 
 .band-name {
-   text-align:right;
-   padding-right:120px;
-   padding-bottom:30px;
-   color: red;
+   color: #482222;
    font-family: futura;
-   font-size: 42px;
+   font-size: 32px;
    font-variant: small-caps;
 }
 
@@ -30,11 +27,11 @@ h3, h4 {
 }
 
 .colborder {
-   border-color: #482222;
+   border-color: #222;
 }
 
 hr {
-   background-color: #482222;
+   background-color: #222;
 }
 
 .cover {
