@@ -1,34 +1,20 @@
 body {
-   padding:20px;
-   font-family: helvetica, arial, sans-serif;
+   padding:10px;
+   font-size:14px;
 }
 
 a {
-   text-decoration:none;
+   text-decoration: none;
 }
 
-ul {
-   padding-left:40px;
-   list-style:none;
+.band-name {
+   font-variant: small-caps;
 }
 
-h1 {
-   font-family: futura, helvetica, arial, sans-serif;
-   font-size:24px;
-   font-variant:small-caps;
-   color:red;
-}
-
-p {
-   padding-top:20px;
+.cover {
+   width:200px;
 }
 
 .album {
-   float:left;
-   padding:50px;
    text-align:center;
-}
-.cover {
-   width:300px;
-   height:300px;
 }
