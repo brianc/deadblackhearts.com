@@ -24,9 +24,13 @@ h3 {
 }
 
 .cover {
-   width:95px;
+   width:100px;
 }
 
 .download {
    font-size:14px;
+}
+
+ol {
+   padding-left:20px;
 }
