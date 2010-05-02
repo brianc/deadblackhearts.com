@@ -29,9 +29,26 @@ h3 {
 }
 
 .download {
-   font-size:14px;
+   font-size:18px;
+   font-variant: small-caps;
 }
 
 ol {
    padding-left:20px;
+}
+
+.shows li, .shows ul {
+   list-style: none;
+   padding:0px;
+   margin:0px;
+}
+
+.show P {
+   padding:0px;
+   margin:0px;
+}
+
+.show div {
+
+   padding-bottom:8px;
 }
