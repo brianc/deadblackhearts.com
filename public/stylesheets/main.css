@@ -1,27 +1,46 @@
 body {
    padding:10px;
    font-size:13px;
+   font-weight: 100;
+   background: #1a1a1a;
+   color: #88887b;
+}
+
+.quiet {
+   color: #55554d;
 }
 
 a {
-   text-decoration: none;
+   text-decoration: underline;
+   font-weight: 400;
+   color: #ddddd0;
 }
 a:hover, a:active {
-
-   text-decoration: underline;
+   color: #9a3333;
+   text-decoration: none;
 }
 
 .band-name {
-   color: red;
+   color: #9a3333;
    font-family: futura, "futura lt", "Century Gothic";
    font-size: 36px;
    font-variant: small-caps;
+   font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: #ddddd0;
+   font-weight: bold;
 }
 
 h3 {
    font-family: futura, "futura lt", "Century Gothic";
    font-variant: small-caps;
    font-size: 22px;
+}
+
+.album-name {
+   margin-bottom: 0em;
 }
 
 .cover {
@@ -31,6 +50,7 @@ h3 {
 .download {
    font-size:18px;
    font-variant: small-caps;
+   font-weight: bold;
 }
 
 ol {
@@ -51,4 +71,13 @@ ol {
 .show div {
 
    padding-bottom:8px;
+}
+
+.colborder {
+   border-color: #444;
+}
+
+hr {
+   color: #444;
+   background-color: #444;
 }
