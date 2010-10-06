@@ -81,3 +81,12 @@ hr {
    color: #444;
    background-color: #444;
 }
+
+li.show {
+   padding-bottom: 12px;
+}
+
+h5 {
+   padding: 0px;
+   margin: 0px;
+}
